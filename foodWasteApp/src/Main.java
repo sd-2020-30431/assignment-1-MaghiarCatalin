@@ -25,6 +25,5 @@ public class Main {
         UserDAO userDAO = new UserDAO();
         ShoppingCartDAO shoppingCartDAO = new ShoppingCartDAO();
         ItemDAO itemDAO = new ItemDAO();
-
     }
 }

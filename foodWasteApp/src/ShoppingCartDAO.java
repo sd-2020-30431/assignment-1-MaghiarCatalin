@@ -25,7 +25,40 @@ public class ShoppingCartDAO {
         }
     }
 
-     ArrayList<Integer> selectUserListItemsById(int userId) {
+    void deleteItemFromUser(int userId, int itemId){
+        int arrayPosition = 0;
+        ArrayList<Integer> idShoppingCart = new ArrayList<>();
+        ArrayList<Integer> itemIDsList = selectUserListItemsById(userId, idShoppingCart);
+
+        System.out.println(idShoppingCart);
+        System.out.println(itemIDsList);
+
+        for(int i = 0; i < itemIDsList.size(); i++){
+            if(itemIDsList.get(i) == itemId){
+                arrayPosition = idShoppingCart.get(i);
+                break;
+            }
+        }
+
+        System.out.println(arrayPosition);
+
+        try (Connection conn = DriverManager.getConnection(dbURL, username, password)) {
+
+            String sql = "DELETE FROM shoppingcart WHERE idshoppingcart=?";
+
+            PreparedStatement statement = conn.prepareStatement(sql);
+            statement.setInt(1, arrayPosition);
+
+            int rowsDeleted = statement.executeUpdate();
+            if (rowsDeleted > 0) {
+                System.out.println("An item for the user's shopping cart was deleted successfully!");
+            }
+        } catch (SQLException ex) {
+            ex.printStackTrace();
+        }
+    }
+
+     ArrayList<Integer> selectUserListItemsById(int userId, ArrayList<Integer> idShoppingCart) {
         ArrayList<Integer> itemIDsList = new ArrayList<>();
 
         try (Connection conn = DriverManager.getConnection(dbURL, username, password)) {
@@ -38,6 +71,7 @@ public class ShoppingCartDAO {
 
             while (result.next()) {
                 itemIDsList.add(result.getInt("itemID"));
+                idShoppingCart.add(result.getInt("idshoppingcart"));
             }
         } catch (SQLException ex) {
             ex.printStackTrace();
@@ -45,38 +79,22 @@ public class ShoppingCartDAO {
         return itemIDsList;
     }
 
-    void updateUserListItemsById(int userId, int itemId, int idShoppingCart){
+    void updateUserListItemsById(int userId, int itemId, Array itemListInts, int idShoppingCart){
         try (Connection conn = DriverManager.getConnection(dbURL, username, password)) {
 
-            String sql = "UPDATE shoppingcart SET userID=?, itemID=? WHERE idshoppingcart=?";
+            String sql = "UPDATE shoppingcart SET userID=?, itemID=?, itemsList=? WHERE idshoppingcart=?";
 
             PreparedStatement statement = conn.prepareStatement(sql);
             statement.setInt(1, userId);
             statement.setInt(2, itemId);
-            statement.setInt(3, idShoppingCart);
+            statement.setArray(3, itemListInts);
+            statement.setInt(4, idShoppingCart);
 
             int rowsUpdated = statement.executeUpdate();
             if (rowsUpdated > 0) {
                 System.out.println("An existing item for the user's shopping cart was updated successfully!");
             }
 
-        } catch (SQLException ex) {
-            ex.printStackTrace();
-        }
-    }
-
-    void deleteUserListItemsById(int idShoppingCart) {
-        try (Connection conn = DriverManager.getConnection(dbURL, username, password)) {
-
-            String sql = "DELETE FROM shoppingcart WHERE idshoppingcart=?";
-
-            PreparedStatement statement = conn.prepareStatement(sql);
-            statement.setInt(1, idShoppingCart);
-
-            int rowsDeleted = statement.executeUpdate();
-            if (rowsDeleted > 0) {
-                System.out.println("An item for the user's shopping cart was deleted successfully!");
-            }
         } catch (SQLException ex) {
             ex.printStackTrace();
         }
