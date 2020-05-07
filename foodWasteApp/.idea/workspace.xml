@@ -1,121 +1,105 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="678800ae-7122-45a2-9471-ce22ce1c8bd4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/813ea9fe-c3f6-47d7-b499-378a9c561016.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/813ea9fe-c3f6-47d7-b499-378a9c561016/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/foodWasteGUI.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foodWasteApp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/foodWasteApp/FoodWasteGUI.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/foodWasteApp/Item.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/foodWasteApp/ItemDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/foodWasteApp/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/foodWasteApp/ShoppingCartDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/foodWasteApp/UserDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FoodWasteGUI.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Item.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ItemDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShoppingCartDAO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UserDAO.java" beforeDir="false" />
-    </list>
+    <list default="true" id="4f5c2bf9-f7ff-4d6a-8f48-75a720598c5e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="hibernate.cfg.xml/Hibernate" type="feb32156:DbDataSourceImpl" />
-      </path>
-    </expand>
-    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-        <option value="FxmlFile" />
-      </list>
-    </option>
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="ProjectId" id="1bAoDZyeInIC2Cw9HrO1ypz4Pvy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1bZkZAx0YRMpXzUtIrixxcnUBLX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.Annotations" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
   </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="11" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="hibernate-starter.main" />
+      <module name="foodWasteApp.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_111\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="INCLUDE_PROVIDED_SCOPE" value="true" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="foodWasteApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="hibernate-starter" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="hibernate-starter" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -125,22 +109,13 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="678800ae-7122-45a2-9471-ce22ce1c8bd4" name="Default Changelist" comment="" />
-      <created>1588084139175</created>
+      <changelist id="4f5c2bf9-f7ff-4d6a-8f48-75a720598c5e" name="Default Changelist" comment="" />
+      <created>1588847055090</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1588084139175</updated>
-      <workItem from="1588084141702" duration="60000" />
-      <workItem from="1588084219469" duration="2517000" />
-      <workItem from="1588086754915" duration="720000" />
-      <workItem from="1588087490995" duration="106000" />
-      <workItem from="1588087612024" duration="2665000" />
-      <workItem from="1588338717517" duration="4148000" />
-      <workItem from="1588343268827" duration="22000" />
-      <workItem from="1588343447563" duration="3606000" />
-      <workItem from="1588841977054" duration="192000" />
-      <workItem from="1588842218962" duration="54000" />
-      <workItem from="1588844051324" duration="17000" />
+      <updated>1588847055090</updated>
+      <workItem from="1588847057670" duration="402000" />
+      <workItem from="1588847536263" duration="1000000" />
     </task>
     <servers />
   </component>
@@ -148,73 +123,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Project_Structure" timestamp="1588345732897">
+    <state x="439" y="150" key="#Main" timestamp="1588847884048">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="178" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1588345732897" />
-    <state x="476" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588345896551">
+    <state x="439" y="150" key="#Main/0.0.1920.1040@0.0.1920.1040" timestamp="1588847884048" />
+    <state x="677" y="178" key="#Main_(1)" timestamp="1588848242670">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="476" y="150" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588345896551" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1588341306608">
+    <state x="677" y="178" key="#Main_(1)/0.0.1920.1040@0.0.1920.1040" timestamp="1588848242670" />
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588848519410">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588341306608" />
-    <state x="751" y="279" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588344712402">
+    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588848519410" />
+    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1588848499206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="751" y="279" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588344712402" />
-    <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588341936414">
+    <state x="689" y="303" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588848499206" />
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1588848536324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="808" y="408" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588341936414" />
-    <state x="790" y="230" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1588345281992">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588848536324" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1588848536324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="790" y="230" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588345281992" />
-    <state x="756" y="404" width="407" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1588344441571">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588848536324" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1588848536324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="756" y="404" width="407" height="238" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1588344441571" />
-    <state width="254" height="195" key="DatabaseViewActions_Filter" timestamp="1588087033864">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588848536324" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1588848536324">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="254" height="195" key="DatabaseViewActions_Filter/0.0.1920.1040@0.0.1920.1040" timestamp="1588087033864" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1588345765699">
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588848536324" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1588847169820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588345765699" />
-    <state width="1877" height="320" key="GridCell.Tab.0.bottom" timestamp="1588842272467">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588842272467" />
-    <state width="1877" height="320" key="GridCell.Tab.0.center" timestamp="1588842272467">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588842272467" />
-    <state width="1877" height="320" key="GridCell.Tab.0.left" timestamp="1588842272467">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588842272467" />
-    <state width="1877" height="320" key="GridCell.Tab.0.right" timestamp="1588842272467">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="320" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588842272467" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1588345776664">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588345776664" />
-    <state x="859" y="409" width="326" height="235" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1588340111150">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="859" y="409" width="326" height="235" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1040@0.0.1920.1040" timestamp="1588340111150" />
-    <state x="818" y="266" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1588086893287">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="818" y="266" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588086893287" />
-    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1588345752767">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="664" y="413" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1588345752767" />
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588847169820" />
   </component>
 </project>

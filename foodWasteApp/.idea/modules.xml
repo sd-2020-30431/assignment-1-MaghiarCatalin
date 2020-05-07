@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/foodWasteApp.iml" filepath="$PROJECT_DIR$/.idea/foodWasteApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/foodWasteApp.iml" filepath="$PROJECT_DIR$/.idea/modules/foodWasteApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/foodWasteApp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/foodWasteApp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/foodWasteApp.test.iml" filepath="$PROJECT_DIR$/.idea/modules/foodWasteApp.test.iml" />
     </modules>
   </component>
 </project>
